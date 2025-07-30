@@ -1,0 +1,12 @@
+C:\[WORKSPACE]\2507_HNS_Reboot\250711_HNS_Alarm\HNS_Alarm.Module\bin\Release\net8.0\HNS_Alarm.Module.deps.json
+C:\[WORKSPACE]\2507_HNS_Reboot\250711_HNS_Alarm\HNS_Alarm.Module\bin\Release\net8.0\HNS_Alarm.Module.dll
+C:\[WORKSPACE]\2507_HNS_Reboot\250711_HNS_Alarm\HNS_Alarm.Module\bin\Release\net8.0\HNS_Alarm.Module.pdb
+C:\[WORKSPACE]\2507_HNS_Reboot\250711_HNS_Alarm\HNS_Alarm.Module\obj\Release\net8.0\HNS_Alarm.Module.csproj.AssemblyReference.cache
+C:\[WORKSPACE]\2507_HNS_Reboot\250711_HNS_Alarm\HNS_Alarm.Module\obj\Release\net8.0\HNS_Alarm.Module.GeneratedMSBuildEditorConfig.editorconfig
+C:\[WORKSPACE]\2507_HNS_Reboot\250711_HNS_Alarm\HNS_Alarm.Module\obj\Release\net8.0\HNS_Alarm.Module.AssemblyInfoInputs.cache
+C:\[WORKSPACE]\2507_HNS_Reboot\250711_HNS_Alarm\HNS_Alarm.Module\obj\Release\net8.0\HNS_Alarm.Module.AssemblyInfo.cs
+C:\[WORKSPACE]\2507_HNS_Reboot\250711_HNS_Alarm\HNS_Alarm.Module\obj\Release\net8.0\HNS_Alarm.Module.csproj.CoreCompileInputs.cache
+C:\[WORKSPACE]\2507_HNS_Reboot\250711_HNS_Alarm\HNS_Alarm.Module\obj\Release\net8.0\HNS_Alarm.Module.dll
+C:\[WORKSPACE]\2507_HNS_Reboot\250711_HNS_Alarm\HNS_Alarm.Module\obj\Release\net8.0\refint\HNS_Alarm.Module.dll
+C:\[WORKSPACE]\2507_HNS_Reboot\250711_HNS_Alarm\HNS_Alarm.Module\obj\Release\net8.0\HNS_Alarm.Module.pdb
+C:\[WORKSPACE]\2507_HNS_Reboot\250711_HNS_Alarm\HNS_Alarm.Module\obj\Release\net8.0\ref\HNS_Alarm.Module.dll

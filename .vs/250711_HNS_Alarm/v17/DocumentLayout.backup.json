@@ -1,0 +1,320 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|c:\\[workspace]\\2507_hns_reboot\\250711_hns_alarm\\hns_alarm.module\\data\\observatorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|solutionrelative:hns_alarm.module\\data\\observatorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|c:\\[workspace]\\2507_hns_reboot\\250711_hns_alarm\\hns_alarm.module\\data\\obssensorstepmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|solutionrelative:hns_alarm.module\\data\\obssensorstepmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|c:\\[workspace]\\2507_hns_reboot\\250711_hns_alarm\\hns_alarm.module\\manager\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|solutionrelative:hns_alarm.module\\manager\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|c:\\[workspace]\\2507_hns_reboot\\250711_hns_alarm\\hns_alarm.module\\manager\\logicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|solutionrelative:hns_alarm.module\\manager\\logicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|c:\\[workspace]\\2507_hns_reboot\\250711_hns_alarm\\hns_alarm.module\\manager\\modelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|solutionrelative:hns_alarm.module\\manager\\modelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|c:\\[workspace]\\2507_hns_reboot\\250711_hns_alarm\\hns_alarm.module\\hns_alarm.module.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|solutionrelative:hns_alarm.module\\hns_alarm.module.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4682A10-1359-46CC-A01B-DEBBACC79CC3}|HNS_Alarm.Console\\HNS_Alarm.Console.csproj|c:\\[workspace]\\2507_hns_reboot\\250711_hns_alarm\\hns_alarm.console\\hns_alarm.console.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D4682A10-1359-46CC-A01B-DEBBACC79CC3}|HNS_Alarm.Console\\HNS_Alarm.Console.csproj|solutionrelative:hns_alarm.console\\hns_alarm.console.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|c:\\[workspace]\\2507_hns_reboot\\250711_hns_alarm\\hns_alarm.module\\data\\boardstatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|solutionrelative:hns_alarm.module\\data\\boardstatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|c:\\[workspace]\\2507_hns_reboot\\250711_hns_alarm\\hns_alarm.module\\data\\areadatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|solutionrelative:hns_alarm.module\\data\\areadatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4682A10-1359-46CC-A01B-DEBBACC79CC3}|HNS_Alarm.Console\\HNS_Alarm.Console.csproj|c:\\[workspace]\\2507_hns_reboot\\250711_hns_alarm\\hns_alarm.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4682A10-1359-46CC-A01B-DEBBACC79CC3}|HNS_Alarm.Console\\HNS_Alarm.Console.csproj|solutionrelative:hns_alarm.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|c:\\[workspace]\\2507_hns_reboot\\250711_hns_alarm\\hns_alarm.module\\alarmmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|solutionrelative:hns_alarm.module\\alarmmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|c:\\[workspace]\\2507_hns_reboot\\250711_hns_alarm\\hns_alarm.module\\data\\hnsresourcemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|solutionrelative:hns_alarm.module\\data\\hnsresourcemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|c:\\[workspace]\\2507_hns_reboot\\250711_hns_alarm\\hns_alarm.module\\data\\alarmyearlymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|solutionrelative:hns_alarm.module\\data\\alarmyearlymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|c:\\[workspace]\\2507_hns_reboot\\250711_hns_alarm\\hns_alarm.module\\data\\alarmsummarymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|solutionrelative:hns_alarm.module\\data\\alarmsummarymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|c:\\[workspace]\\2507_hns_reboot\\250711_hns_alarm\\hns_alarm.module\\data\\alarmmontlymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|solutionrelative:hns_alarm.module\\data\\alarmmontlymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|c:\\[workspace]\\2507_hns_reboot\\250711_hns_alarm\\hns_alarm.module\\data\\currentdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|solutionrelative:hns_alarm.module\\data\\currentdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|c:\\[workspace]\\2507_hns_reboot\\250711_hns_alarm\\hns_alarm.module\\data\\alarmlogmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|solutionrelative:hns_alarm.module\\data\\alarmlogmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|c:\\[workspace]\\2507_hns_reboot\\250711_hns_alarm\\hns_alarm.module\\data\\chartdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337A8034-90E0-4056-8CB9-682D0AB627E0}|HNS_Alarm.Module\\HNS_Alarm.Module.csproj|solutionrelative:hns_alarm.module\\data\\chartdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DbManager.cs",
+              "DocumentMoniker": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Manager\\DbManager.cs",
+              "RelativeDocumentMoniker": "HNS_Alarm.Module\\Manager\\DbManager.cs",
+              "ToolTip": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Manager\\DbManager.cs",
+              "RelativeToolTip": "HNS_Alarm.Module\\Manager\\DbManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAM8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T06:08:38.189Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ModelManager.cs",
+              "DocumentMoniker": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Manager\\ModelManager.cs",
+              "RelativeDocumentMoniker": "HNS_Alarm.Module\\Manager\\ModelManager.cs",
+              "ToolTip": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Manager\\ModelManager.cs",
+              "RelativeToolTip": "HNS_Alarm.Module\\Manager\\ModelManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T07:30:45.122Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Console\\Program.cs",
+              "RelativeDocumentMoniker": "HNS_Alarm.Console\\Program.cs",
+              "ToolTip": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Console\\Program.cs",
+              "RelativeToolTip": "HNS_Alarm.Console\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T05:56:08.491Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AlarmModule.cs",
+              "DocumentMoniker": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\AlarmModule.cs",
+              "RelativeDocumentMoniker": "HNS_Alarm.Module\\AlarmModule.cs",
+              "ToolTip": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\AlarmModule.cs",
+              "RelativeToolTip": "HNS_Alarm.Module\\AlarmModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T05:56:44.668Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HNS_Alarm.Console",
+              "DocumentMoniker": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Console\\HNS_Alarm.Console.csproj",
+              "RelativeDocumentMoniker": "HNS_Alarm.Console\\HNS_Alarm.Console.csproj",
+              "ToolTip": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Console\\HNS_Alarm.Console.csproj",
+              "RelativeToolTip": "HNS_Alarm.Console\\HNS_Alarm.Console.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-24T02:24:40.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HnsResourceModel.cs",
+              "DocumentMoniker": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Data\\HnsResourceModel.cs",
+              "RelativeDocumentMoniker": "HNS_Alarm.Module\\Data\\HnsResourceModel.cs",
+              "ToolTip": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Data\\HnsResourceModel.cs",
+              "RelativeToolTip": "HNS_Alarm.Module\\Data\\HnsResourceModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T06:31:23.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ObservatoryModel.cs",
+              "DocumentMoniker": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Data\\ObservatoryModel.cs",
+              "RelativeDocumentMoniker": "HNS_Alarm.Module\\Data\\ObservatoryModel.cs",
+              "ToolTip": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Data\\ObservatoryModel.cs",
+              "RelativeToolTip": "HNS_Alarm.Module\\Data\\ObservatoryModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T06:30:39.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LogicManager.cs",
+              "DocumentMoniker": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Manager\\LogicManager.cs",
+              "RelativeDocumentMoniker": "HNS_Alarm.Module\\Manager\\LogicManager.cs",
+              "ToolTip": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Manager\\LogicManager.cs",
+              "RelativeToolTip": "HNS_Alarm.Module\\Manager\\LogicManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T07:13:25.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HNS_Alarm.Module.csproj",
+              "DocumentMoniker": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\HNS_Alarm.Module.csproj",
+              "RelativeDocumentMoniker": "HNS_Alarm.Module\\HNS_Alarm.Module.csproj",
+              "ToolTip": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\HNS_Alarm.Module.csproj",
+              "RelativeToolTip": "HNS_Alarm.Module\\HNS_Alarm.Module.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-11T08:44:13.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ObsSensorStepModel.cs",
+              "DocumentMoniker": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Data\\ObsSensorStepModel.cs",
+              "RelativeDocumentMoniker": "HNS_Alarm.Module\\Data\\ObsSensorStepModel.cs",
+              "ToolTip": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Data\\ObsSensorStepModel.cs",
+              "RelativeToolTip": "HNS_Alarm.Module\\Data\\ObsSensorStepModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T06:30:38.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BoardStateModel.cs",
+              "DocumentMoniker": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Data\\BoardStateModel.cs",
+              "RelativeDocumentMoniker": "HNS_Alarm.Module\\Data\\BoardStateModel.cs",
+              "ToolTip": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Data\\BoardStateModel.cs",
+              "RelativeToolTip": "HNS_Alarm.Module\\Data\\BoardStateModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAD4vzYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T04:38:33.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AreaDataModel.cs",
+              "DocumentMoniker": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Data\\AreaDataModel.cs",
+              "RelativeDocumentMoniker": "HNS_Alarm.Module\\Data\\AreaDataModel.cs",
+              "ToolTip": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Data\\AreaDataModel.cs",
+              "RelativeToolTip": "HNS_Alarm.Module\\Data\\AreaDataModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T06:30:40.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AlarmYearlyModel.cs",
+              "DocumentMoniker": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Data\\AlarmYearlyModel.cs",
+              "RelativeDocumentMoniker": "HNS_Alarm.Module\\Data\\AlarmYearlyModel.cs",
+              "ToolTip": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Data\\AlarmYearlyModel.cs",
+              "RelativeToolTip": "HNS_Alarm.Module\\Data\\AlarmYearlyModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T06:31:19.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AlarmSummaryModel.cs",
+              "DocumentMoniker": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Data\\AlarmSummaryModel.cs",
+              "RelativeDocumentMoniker": "HNS_Alarm.Module\\Data\\AlarmSummaryModel.cs",
+              "ToolTip": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Data\\AlarmSummaryModel.cs",
+              "RelativeToolTip": "HNS_Alarm.Module\\Data\\AlarmSummaryModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T07:25:27.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AlarmMontlyModel.cs",
+              "DocumentMoniker": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Data\\AlarmMontlyModel.cs",
+              "RelativeDocumentMoniker": "HNS_Alarm.Module\\Data\\AlarmMontlyModel.cs",
+              "ToolTip": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Data\\AlarmMontlyModel.cs",
+              "RelativeToolTip": "HNS_Alarm.Module\\Data\\AlarmMontlyModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T06:30:42.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AlarmLogModel.cs",
+              "DocumentMoniker": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Data\\AlarmLogModel.cs",
+              "RelativeDocumentMoniker": "HNS_Alarm.Module\\Data\\AlarmLogModel.cs",
+              "ToolTip": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Data\\AlarmLogModel.cs",
+              "RelativeToolTip": "HNS_Alarm.Module\\Data\\AlarmLogModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T06:31:16.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ChartDataModel.cs",
+              "DocumentMoniker": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Data\\ChartDataModel.cs",
+              "RelativeDocumentMoniker": "HNS_Alarm.Module\\Data\\ChartDataModel.cs",
+              "ToolTip": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Data\\ChartDataModel.cs",
+              "RelativeToolTip": "HNS_Alarm.Module\\Data\\ChartDataModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T06:31:22.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CurrentDataModel.cs",
+              "DocumentMoniker": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Data\\CurrentDataModel.cs",
+              "RelativeDocumentMoniker": "HNS_Alarm.Module\\Data\\CurrentDataModel.cs",
+              "ToolTip": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\Data\\CurrentDataModel.cs",
+              "RelativeToolTip": "HNS_Alarm.Module\\Data\\CurrentDataModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T06:30:40.087Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
