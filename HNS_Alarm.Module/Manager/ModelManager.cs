@@ -105,7 +105,8 @@ namespace HNS_Alarm.Module.Manager
             //obs 로드
             task = db.GetObss()
                 .ContinueWith(task => {
-                    var newObss = task.Result.Where(obs => obs.obsidx == 1).ToList(); //테스트 용으로 1번 관측소만 로드
+                    //var newObss = task.Result.Where(obs => obs.obsidx == 1).ToList(); //테스트 용으로 1번 관측소만 로드
+                    var newObss = task.Result.Where(obs => obs.obsidx == 1 || obs.obsidx == 29).ToList();
 
                     this.obss.AddRange(newObss);
                     PrintProcess();
@@ -314,6 +315,7 @@ namespace HNS_Alarm.Module.Manager
         /// 새로고침된 정보를 토대로 해소할 알람들의 리스트 추출
         /// </summary>
         /// <returns>해소할 알람들의 리스트</returns>
+        /// <returns>해소할 알람들의 리스트</returns>
         List<AlarmLogModel> ExtractAlarmsSolved()
         {
             List<AlarmLogModel> alarmSolved = new List<AlarmLogModel>();
@@ -359,7 +361,7 @@ namespace HNS_Alarm.Module.Manager
                         if (values[sensor] is not CurrentDataModel value)
                             throw new Exception($"ExtractAlarmsSolved({alarm.alacode}) - Failed to Find value {alarm.obsidx}/{alarm.boardidx}/{alarm.hnsidx}");
 
-                        //현재값이 유효한지?
+                        //현재값이 유효한지?  else if ((sensor.boardidx == 1 && sensor.hnsidx == 1 && currVal >= 20)
                         if (!value.val.HasValue)
                             throw new Exception($"ExtractAlarmsSolved({alarm.alacode}) - Value doesn't have val. maybe it has not correct alacode {alarm.obsidx}/{alarm.boardidx}/{alarm.hnsidx}");
 
@@ -369,7 +371,10 @@ namespace HNS_Alarm.Module.Manager
                         if (alarm.alacode == 1)
                         {
                             //경계 알람은 현재값이 센서의 경계값보다 낮으면 해결됨
-                            if (currVal < sensor.alahival) alarmSolved.Add(alarm);
+                            //if (currVal < sensor.alahival) alarmSolved.Add(alarm);
+                            // NULL이면 알람 해소, 값이 있으면 비교
+                            if (!sensor.alahival.HasValue || currVal < sensor.alahival)
+                                alarmSolved.Add(alarm);
                         }
                         else if (alarm.alacode == 2)
                         {
@@ -459,8 +464,11 @@ namespace HNS_Alarm.Module.Manager
             sensorList.ForEach(sensor =>
             {
 
-                if (obss.Find(obss => obss.obsidx == sensor.obsidx) is not ObservatoryModel obs)
-                    throw new Exception($"ExractAlarmsOccured({sensor.obsidx}/{sensor.boardidx}/{sensor.hnsidx}) - Failed to Find obs\n");
+                var obs = boards.Keys.FirstOrDefault(k => k.obsidx == sensor.obsidx);
+                if (obs == null)
+                {
+                    return; // Setup에 없는 관측소는 건너뛰기
+                }
 
                 try
                 {
@@ -501,7 +509,8 @@ namespace HNS_Alarm.Module.Manager
                         if (alarms.Find(a => a.obsidx == sensor.obsidx && a.boardidx == sensor.boardidx && a.hnsidx == sensor.hnsidx && a.alacode == 1) is AlarmLogModel)
                         { }
                         //경계 알람은 현재값이 센서의 경계값보다 높으면 발생
-                        else if (currVal >= sensor.alahival)
+                        else if ((sensor.boardidx == 1 && sensor.hnsidx == 1 && sensor.alahival.HasValue && currVal > 0 && currVal >= sensor.alahival) ||
+                        (!(sensor.boardidx == 1 && sensor.hnsidx == 1) && sensor.alahival.HasValue && currVal >= sensor.alahival.Value))
                         {
                             alarmOccured.Add(new AlarmLogModel()
                             {
@@ -526,28 +535,31 @@ namespace HNS_Alarm.Module.Manager
                     //2 : 경보
                     {
                         //이전에 경보 알람이 발생했는지 확인
-                        if (alarms.Find(a => a.obsidx == sensor.obsidx && a.boardidx == sensor.boardidx && a.hnsidx == sensor.hnsidx && a.alacode == 2) is AlarmLogModel) 
+                        if (alarms.Find(a => a.obsidx == sensor.obsidx && a.boardidx == sensor.boardidx && a.hnsidx == sensor.hnsidx && a.alacode == 2) is AlarmLogModel)
                         { }
                         //경보 알람은 현재값이 센서의 경계값보다 높으면 발생
-                        else if (currVal >= sensor.alahihival)
+                        else if ((sensor.boardidx == 1 && sensor.hnsidx == 1 && sensor.alahihival.HasValue && currVal >= sensor.alahihival.Value) ||
+                        (!(sensor.boardidx == 1 && sensor.hnsidx == 1) && sensor.alahihival.HasValue && currVal >= sensor.alahihival.Value))
                         {
-                            alarmOccured.Add(new AlarmLogModel()
                             {
-                                alacode = 2, //경보
-                                aladt = DateTime.Now.ToString("yyyyMMddHHmmss"),
-                                obsidx = sensor.obsidx,
-                                boardidx = sensor.boardidx,
-                                hnsidx = sensor.hnsidx,
-                                alahival = sensor.alahival,
-                                alahihival = sensor.alahihival,
-                                currval = currVal,
-                                hnsnm = sensor.hnsnm,
-                                turnoff_flag = null, //해제되지 않은 상태
-                                turnoff_dt = null,
-                                areanm = obs.areanm ?? "Unknown Area",
-                                obsnm = obs.obsnm ?? "Unknown Observatory",
-                                alaidx = 0 //DB에 저장 후 자동으로 증가
-                            });
+                                alarmOccured.Add(new AlarmLogModel()
+                                {
+                                    alacode = 2, //경보
+                                    aladt = DateTime.Now.ToString("yyyyMMddHHmmss"),
+                                    obsidx = sensor.obsidx,
+                                    boardidx = sensor.boardidx,
+                                    hnsidx = sensor.hnsidx,
+                                    alahival = sensor.alahival,
+                                    alahihival = sensor.alahihival,
+                                    currval = currVal,
+                                    hnsnm = sensor.hnsnm,
+                                    turnoff_flag = null, //해제되지 않은 상태
+                                    turnoff_dt = null,
+                                    areanm = obs.areanm ?? "Unknown Area",
+                                    obsnm = obs.obsnm ?? "Unknown Observatory",
+                                    alaidx = 0 //DB에 저장 후 자동으로 증가
+                                });
+                            }
                         }
                     }
                 }

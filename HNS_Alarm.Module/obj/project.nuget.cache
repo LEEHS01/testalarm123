@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3Sihxj91Pas=",
+  "dgSpecHash": "BiJnCssE8B4=",
   "success": true,
-  "projectFilePath": "C:\\[WORKSPACE]\\2507_HNS_Reboot\\250711_HNS_Alarm\\HNS_Alarm.Module\\HNS_Alarm.Module.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\HNS유해물질\\250711_HNS_Alarm\\250711_HNS_Alarm\\HNS_Alarm.Module\\HNS_Alarm.Module.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\onthesys\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

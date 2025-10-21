@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HNS_Alarm.Console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e73afed85f5928267fd62b6b0a56e3898a66244f")]
 [assembly: System.Reflection.AssemblyProductAttribute("HNS_Alarm.Console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HNS_Alarm.Console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,7 +3,7 @@
 
 var mod = new AlarmModule(new AlarmModule.Parameter() {
     dbUrl = "http://192.168.1.20:2000/", 
-    intervalSec = 10
+    intervalSec = 3
 });
 
 mod.OnInternalMessage += Console.Write;
